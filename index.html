@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Thiago Macedo">
-    <meta name="description" content="Portfólio do desenvolvedor front-end Thiago Macedo">
-    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css">
-    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
-    <link rel="icon" type="image/x-icon" href="images/whitelogo.png">
-    <title>Name Surname</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Uma página para gerar paletas de cores!">
+    <meta name="keywords" content="cor, cores, paleta, paleta de cor">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.svg">
+    <title>PaletteCraft</title>
 </head>
 <body>
-    <a href="https://thgd86.github.io/">Voltar</a>
+    <h1>Gerador de Paleta de Cores</h1>
+    <select name ="teste" id="palette-type" title="Selecione o tipo de paleta de cores">
+        <option value="analogous">Análoga</option>
+        <option value="complementary">Complementar</option>
+        <option value="triadic">Triádica</option>
+    </select>
+    <button type="button" id="generate-button">Gerar Paleta</button>
+    <div id="color-palette">
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.1/chroma.min.js"></script>
 </body>
+</html>
