@@ -1,1 +1,1 @@
-# thgd86.github.io/site-example
+# thgd86.github.io/PaletteCraft
