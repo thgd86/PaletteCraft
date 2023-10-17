@@ -10,15 +10,21 @@
     <title>PaletteCraft</title>
 </head>
 <body>
-    <h1>Gerador de Paleta de Cores</h1>
-    <select name ="teste" id="palette-type" title="Selecione o tipo de paleta de cores">
-        <option value="analogous">Análoga</option>
-        <option value="complementary">Complementar</option>
-        <option value="triadic">Triádica</option>
-    </select>
-    <button type="button" id="generate-button">Gerar Paleta</button>
-    <div id="color-palette">
-    </div>
+    <header>
+        <h1>Gerador de Paleta de Cores</h1>
+    </header>
+    <main>
+        <div id="options">
+            <select name ="teste" id="palette-type" title="Selecione o tipo de paleta de cores">
+            <option value="analogous">Análoga</option>
+            <option value="complementary">Complementar</option>
+            <option value="triadic">Triádica</option>
+            </select>
+            <button type="button" id="generate-button">Gerar Paleta</button>
+            <div id="color-palette">
+            </div>
+        </div>
+    </main>
     <script src="js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.1/chroma.min.js"></script>
 </body>
